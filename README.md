@@ -393,7 +393,6 @@ Projet éducatif de démonstration pour l'apprentissage du Reinforcement Learnin
 
 ##  Auteur
 
-Projet créé pour illustrer les concepts de Reinforcement Learning avec Q-Learning.
 SYABRI Zakariaa
 ---
 
