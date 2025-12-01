@@ -70,7 +70,7 @@ Choisissez :
 - Position du goal
 - Génération aléatoire des obstacles
 
-## 📊 Ce que vous allez voir
+## Ce que vous allez voir
 
 ### 1. Test de l'agent random (baseline)
 Performance de base avec actions aléatoires
@@ -78,11 +78,11 @@ Performance de base avec actions aléatoires
 ### 2. Entraînement Q-Learning visualisé
 
 **Tous les 50 épisodes**, vous verrez :
-- 🔴 L'agent se déplacer dans la grille
-- 📈 Les Q-values évoluer en temps réel
-- 🎯 Mode EXPLORATION → EXPLOITATION
-- 📉 Epsilon décroître (100% → 1%)
-- 🏆 Trajectoires s'améliorer
+- L'agent se déplacer dans la grille
+- Les Q-values évoluer en temps réel
+- Mode EXPLORATION → EXPLOITATION
+- Epsilon décroître (100% → 1%)
+- Trajectoires s'améliorer
 
 **Progression typique** :
 ```
@@ -115,7 +115,7 @@ Grille avec :
 - **Couleurs** : Intensité selon la valeur
 - **Agent** : Cercle rouge se déplaçant
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Fichier `config.py`
 
@@ -165,7 +165,7 @@ NUM_TRAINING_EPISODES = 500
 VISUALIZE_EVERY = 100
 ```
 
-## 🧠 Algorithme Q-Learning
+##  Algorithme Q-Learning
 
 Q-Learning est un algorithme d'**apprentissage par renforcement** sans modèle (model-free).
 
@@ -194,7 +194,7 @@ Début : ε = 100% → Exploration pure
 Fin   : ε = 1%   → Exploitation quasi-pure
 ```
 
-## 📈 Exemple de sortie
+##  Exemple de sortie
 
 ```
 =======================================================================
@@ -299,7 +299,7 @@ Le goal change à chaque épisode pour tester l'adaptabilité de l'agent.
 ...
 ```
 
-## 🎯 Fonctionnalités avancées
+##  Fonctionnalités avancées
 
 ### Goal dynamique
 
@@ -323,7 +323,7 @@ Le système valide :
 - Start ≠ Goal
 - Nombre d'obstacles valide
 
-## 🔧 Fichiers principaux
+##  Fichiers principaux
 
 ### `gridworld_env.py`
 Environnement GridWorld (inspiré de Gymnasium) :
@@ -353,7 +353,7 @@ Programme principal :
 - Courbes d'apprentissage
 - Animations
 
-## 💡 Conseils d'utilisation
+##  Conseils d'utilisation
 
 ### Pour débuter
 1. Utilisez le preset **Petit** (option 2 → 1)
@@ -370,7 +370,7 @@ Programme principal :
 2. Observez epsilon décroître (exploration → exploitation)
 3. Comparez les courbes de récompenses et steps
 
-## 🐛 Dépannage
+##  Roncontre des problématiques
 
 **L'agent n'apprend pas** :
 - Augmenter `NUM_TRAINING_EPISODES`
@@ -386,41 +386,15 @@ Programme principal :
 - Augmenter `NUM_TRAINING_EPISODES` proportionnellement
 - Pour 15x15 : au moins 500 épisodes recommandés
 
-## 📚 Pour aller plus loin
-
-### Modifications possibles
-
-1. **Autres algorithmes** : SARSA, Double Q-Learning, Deep Q-Learning
-2. **Environnement stochastique** : Actions avec probabilité d'échouer
-3. **Récompenses multiples** : Checkpoints intermédiaires
-4. **Obstacles mobiles** : Obstacles qui se déplacent
-5. **Multi-agents** : Plusieurs agents qui apprennent ensemble
-
-### Paramètres à expérimenter
-
-- **Learning rate** : 0.01, 0.05, 0.1, 0.2, 0.5
-- **Epsilon decay** : 0.99, 0.995, 0.999
-- **Gamma** : 0.9, 0.95, 0.99
-- **Récompenses** : Modifier dans `gridworld_env.py`
-
-## 🎓 Concepts de RL illustrés
-
-Ce projet démontre :
-- ✅ **Exploration vs Exploitation** (epsilon-greedy)
-- ✅ **Apprentissage temporel** (TD learning)
-- ✅ **Q-Learning** (off-policy)
-- ✅ **Politique optimale** (extraction de π*)
-- ✅ **Généralisation** (goal dynamique)
-- ✅ **Convergence** (courbes d'apprentissage)
 
 ## 📄 Licence
 
 Projet éducatif de démonstration pour l'apprentissage du Reinforcement Learning.
 
-## 🙏 Auteur
+##  Auteur
 
 Projet créé pour illustrer les concepts de Reinforcement Learning avec Q-Learning.
-
+SYABRI Zakariaa
 ---
 
-**🚀 Amusez-vous bien et bon apprentissage !**
+
