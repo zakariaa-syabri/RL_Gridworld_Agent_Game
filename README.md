@@ -2,7 +2,7 @@
 
 Projet de **Reinforcement Learning** avec un environnement GridWorld interactif. L'agent utilise **Q-Learning** pour apprendre par **expérience** (essais/erreurs) et non par planification.
 
-## 🎯 Caractéristiques principales
+##  Caractéristiques principales
 
 - ✅ **Apprentissage RÉEL** : Q-Learning au lieu de Value Iteration (l'agent apprend vraiment)
 - ✅ **Visualisation en temps réel** : Regardez l'agent apprendre épisode par épisode
@@ -12,7 +12,7 @@ Projet de **Reinforcement Learning** avec un environnement GridWorld interactif.
 - ✅ **Courbes d'apprentissage** : Visualisez la progression de l'agent
 - ✅ **Interface interactive** : Menu simple et intuitif
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 RL_game/
@@ -26,7 +26,7 @@ RL_game/
 └── GUIDE_UTILISATION.md       # Guide détaillé
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prérequis
 - Python 3.7+
@@ -39,7 +39,7 @@ RL_game/
 pip install numpy matplotlib
 ```
 
-## 🎮 Utilisation
+##  Utilisation
 
 ### Démarrage rapide
 
